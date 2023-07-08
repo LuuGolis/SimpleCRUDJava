@@ -1,4 +1,6 @@
 <!doctype html>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
 <%@page import="db.ConexionDB"%>
 <html lang="en">
   <head>
