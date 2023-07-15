@@ -1,4 +1,6 @@
-
+<%
+response.sendRedirect("view/login.jsp");
+%>
 
 <!doctype html>
 <%@page import="java.sql.ResultSet"%>
