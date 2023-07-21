@@ -16,13 +16,13 @@
 
 <div class="container">
 <div class="text-center fs-3 my-4">Login</div>
-
-<form action="" method="post">
-<input type="email" name="user" class="form-control" placeholder="usuario" required >
-<input type="password" name="password" class="form-control" placeholder="password" required >
+<div class="d-flex justify-content-center">
+<form action="../controller/checkLogin.jsp" method="post">
+<input type="email" name="user" class="form-control mb-3" placeholder="usuario" required >
+<input type="password" name="password" class="form-control mb-3" placeholder="password" required >
 <input type="submit" value="enviar" class="btn btn-dark">
 </form>
-
+</div>
 </div>
 
 
