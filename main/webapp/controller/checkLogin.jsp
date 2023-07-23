@@ -15,9 +15,9 @@ Statement st = conexion.conectar();
 ResultSet rs = st.executeQuery("SELECT * FROM usuarios WHERE usuario='"+user+"' AND clave='"+pass+"'");
 
 if(rs.next()){
-	out.println("ingreso");
+	response.sendRedirect("../view/inicio.jsp");
 }else{
-	out.println("ingreso incorrecto");
+	response.sendRedirect("../view/error.jsp?mensaje=Usuario%20o%20password%20incorrectos");
 }
 
 
