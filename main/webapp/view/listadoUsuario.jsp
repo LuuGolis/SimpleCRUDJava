@@ -11,6 +11,7 @@
     <title>Error</title>
   </head>
   <body>
+  <jsp:include page="menu.jsp" />
   <div class="container">
   <h1 class="text-center mt-1">Listado usuarios</h1>
     <table class="table table-striped text-center mt-4">
