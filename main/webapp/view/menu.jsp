@@ -13,7 +13,7 @@
             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Usuarios</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="listadoUsuario.jsp">Listado</a></li>
-              <li><a class="dropdown-item" href="#">Agregar</a></li>
+              <li><a class="dropdown-item" href="altaUsuario.jsp">Agregar</a></li>
               
             </ul>
           </li>
