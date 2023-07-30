@@ -8,8 +8,18 @@
   </head>
   <body>
   <jsp:include page="menu.jsp" />
+<div class="bg-secondary fs-5 m-1 p-1 text-center">
 <h1>Bienvenido</h1>
+    </div>
     
+<div class="bg-success text-center my-1 p-2">
+<div>
+<% 
+String mensaje = request.getParameter("mensaje");
+out.println(mensaje);
+%>
+</div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
 </html>

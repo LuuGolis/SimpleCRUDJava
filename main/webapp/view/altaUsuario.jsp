@@ -18,7 +18,7 @@
       <div class="container">
 <div class="text-center fs-3 my-4">Login</div>
 <div class="d-flex justify-content-center">
-<form action="../controller/checkLogin.jsp" method="post">
+<form action="../controller/addUser.jsp" method="post">
 <input type="email" name="user" id="user" onkeyup="validarUsu()" class="form-control mb-3" placeholder="usuario" required >
 <input type="password" name="password" id="pass" onkeyup="showFort()" class="form-control mb-3" placeholder="password" required >
 <input type="password" name="repPass" id="repPass" onkeyup="compararPass()" class="form-control mb-3" placeholder="reingrese contraseña" required>

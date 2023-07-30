@@ -23,6 +23,16 @@
 <input type="submit" value="enviar" class="btn btn-dark">
 </form>
 </div>
+
+<div class="bg-danger text-center my-1 p-2">
+<div>
+<% 
+String mensaje = request.getParameter("mensaje");
+out.println(mensaje);
+%>
+</div>
+</div>
+
 </div>
 
 
